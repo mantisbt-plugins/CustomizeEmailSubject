@@ -1,0 +1,32 @@
+<?php
+
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_new = 'NEW';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_feedback = 'feedback neccessary';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_acknowledged = 'acknowledged';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_confirmed = 'confirmed';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_assigned = 'assigned';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_resolved = 'resolved';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_closed = 'closed';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_submitted = 'submitted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_assigned = 'assigned';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_reopened = 'reopened';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_deleted = 'deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_updated = 'updated';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_sponsorship_added = 'sponsorship added';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_sponsorship_updated = 'sponsorship updated';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_sponsorship_deleted = 'sponsorship deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bugnote_submitted = 'new bugnote';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_duplicate_of_relationship_added = 'duplicate of %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_has_duplicate_relationship_added = '%1$s has duplicate';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_related_to_relationship_added = 'related to %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_dependant_on_relationship_added = 'dependant on %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relationship_added = 'blocks %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_duplicate_of_relationship_deleted = 'duplicate of %1$s deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_has_duplicate_relationship_deleted = '%1$s has duplicate deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_related_to_relationship_deleted = 'related to %1$s deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_dependant_on_relationship_deleted = 'dependant on %1$s deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relationship_deleted = 'blocks %1$s deleted';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_resolved = 'relationship child %1$s has been resolved';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_closed = 'relationship child %1$s has been closed';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_monitor = 'monitored by %2$s';
+
