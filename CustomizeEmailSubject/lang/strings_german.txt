@@ -1,0 +1,33 @@
+<?php
+
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_new = 'NEU';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_feedback = 'Rückmeldung notwendig';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_acknowledged = 'anerkannt';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_confirmed = 'bestätigt';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_assigned = 'zugewiesen';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_resolved = 'erledigt';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_closed = 'geschlossen';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_submitted = 'erfasst';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_assigned = 'zugewiesen';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_reopened = 'wiedereröffnet';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_deleted = 'gelöscht';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bug_updated = 'aktualisiert';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_sponsorship_added = 'hat Sponsor';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_sponsorship_updated = 'Sponsorenschaft geändert';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_sponsorship_deleted = 'Sponsorenschaft zurückgezogen';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_bugnote_submitted = 'neue Notiz';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_duplicate_of_relationship_added = 'Duplikat von %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_has_duplicate_relationship_added = '%1$s ist Duplikat';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_related_to_relationship_added = 'Verwandt mit %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_dependant_on_relationship_added = 'Abhängig von %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relationship_added = 'VORAUSSETZUNG FÜR %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_duplicate_of_relationship_deleted = 'nicht mehr Duplikat von %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_has_duplicate_relationship_deleted = '%1$s nicht mehr Duplikat';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_related_to_relationship_deleted = 'nicht mehr verwandt mit %1$s';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_dependant_on_relationship_deleted = 'nicht mehr abhängig von %1$s.';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relationship_deleted = 'nicht mehr Voraussetzung für %1$s.';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_resolved = 'Der VERWANDTE Eintrag %1$s wurde ERLEDIGT.';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_closed = 'Der VERWANDTE Eintrag %1$s wurde GESCHLOSSEN.';
+$s_plugin_CustomizeEmailSubject_email_notification_title_for_action_monitor = 'Neuer Beobachter %2$s';
+
+

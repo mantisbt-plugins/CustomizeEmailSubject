@@ -34,7 +34,7 @@ print_manage_menu( );
 		available fields
 	</td>
 	<td class="center">
-		project_name, bug_id, summary, handler, priority, severity, reproducibility, status, resolution, projection, category<br />
+		project_name, bug_id, summary, handler, priority, severity, reproducibility, status, resolution, projection, category, reason<br />
 		seperate the fields from the text by using pipe's
 	</td>
 </tr>
