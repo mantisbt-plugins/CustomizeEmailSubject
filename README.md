@@ -28,6 +28,7 @@ You can use these variables in the subject:
 - resolution
 - projection
 - category
+- reason
 
 You can combine the variables with any other text except the pipe(|) symbol. 
 The pipe symbol is used to seperate the variables from the other text, e.g. "[|project_name| |bug_id| |status|]: |summary"
