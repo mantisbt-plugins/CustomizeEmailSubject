@@ -90,8 +90,15 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 				break;
 			case 'reason':
 				$t_path = config_get_global('plugin_path' ). plugin_get_current() . DIRECTORY_SEPARATOR . 'lang' . DIRECTORY_SEPARATOR;
-				require_once( $t_path.'strings_german.txt' );
-				require_once( $t_path.'strings_english.txt' );
+				$t_lang = user_pref_get_language( $coo_bug_object->handler_id );
+				$t_lang_path = $t_path.'strings_'.$t_lang.'.txt';
+				if(file_exists($t_lang_path)) {
+					require $t_lang_path;
+				} else {
+					require $t_path.'strings_english.txt';
+				}
+				//require_once( $t_path.'strings_german.txt' );
+				//require_once( $t_path.'strings_english.txt' );
 				 
 				$t_backtrace = debug_backtrace();
 				$t_message_id = '';
