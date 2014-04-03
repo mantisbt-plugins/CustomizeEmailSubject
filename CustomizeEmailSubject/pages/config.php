@@ -25,7 +25,7 @@ print_manage_menu( );
 		Email Subject Template
 	</td>
 	<td class="center">
-		<input type='text' name="email_subject_template" size="120" value="<? echo plugin_config_get('email_subject_template', '') ?>" />
+		<input type='text' name="email_subject_template" size="120" value="<?php echo plugin_config_get('email_subject_template', '') ?>" />
 	</td>
 </tr>
 
