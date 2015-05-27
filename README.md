@@ -5,7 +5,7 @@ Works with MantisBT 1.2.14.
 
 For my employer I developed this small plugin for Mantis bugtracker. We use it to add the status of a bug to each sent email.
 
-In order to run this plugin, you have to patch the following files:
+In order to run this plugin, you have to patch the following files (no longer needed since MantisBT 1.2.16):
 - core/events_inc.php
 - core/email_api.php
 
