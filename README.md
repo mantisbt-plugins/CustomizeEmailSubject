@@ -1,14 +1,13 @@
 Customize Email Subject for MantisBT
 ====================================
 
-Works with MantisBT 1.2.14.
+Works with MantisBT 1.2.14 & 1.2.19 .
 
 For my employer I developed this small plugin for Mantis bugtracker. We use it to add the status of a bug to each sent email.
 
-In order to run this plugin, you have to patch the following files:
+In order to run this plugin, you have to patch the following files (since version 1.2.16 these issues are fixed):
 - core/events_inc.php
 - core/email_api.php
-
 
 The patches are available on mantisbt.org bugtracker:
 - http://www.mantisbt.org/bugs/view.php?id=15647
