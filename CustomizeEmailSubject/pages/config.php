@@ -29,7 +29,7 @@ print_manage_menu( 'manage_plugin_page.php' );
 <!--table align="center" class="width75" cellspacing="1"-->
 <table class="table table-bordered table-condensed table-striped">
 
-<tr <?php echo helper_alternate_class( )?>>
+<tr>
 	<td class="category">
 		Email Subject Template
 	</td>
@@ -38,7 +38,7 @@ print_manage_menu( 'manage_plugin_page.php' );
 	</td>
 </tr>
 
-<tr <?php echo helper_alternate_class( )?>>
+<tr>
 	<td class="category">
 		available fields
 	</td>
