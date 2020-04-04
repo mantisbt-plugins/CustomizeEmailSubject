@@ -16,9 +16,13 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 		$this->url         = 'https://github.com/mantisbt-plugins/CustomizeEmailSubject';
 	}
 
+	static public function getDefaultTemplate() {
+		return plugin_lang_get( 'default_template' );
+	}
+
 	public function config() {
 		return array(
-			'email_subject_template' => plugin_lang_get( 'default_template' ),
+			'email_subject_template' => $this->getDefaultTemplate(),
 			);
 	}
 	
