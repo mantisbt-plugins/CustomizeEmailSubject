@@ -31,7 +31,7 @@ print_manage_menu( 'manage_plugin_page.php' );
 
 <tr>
 	<td class="category">
-		Email Subject Template
+		<?php echo plugin_lang_get( 'subject_template' ); ?>
 	</td>
 	<td class="center">
 		<input type='text' name="email_subject_template" size="120" value="<?php echo plugin_config_get('email_subject_template', '') ?>" />
@@ -40,11 +40,13 @@ print_manage_menu( 'manage_plugin_page.php' );
 
 <tr>
 	<td class="category">
-		available fields
+		<?php echo plugin_lang_get( 'available_fields' ); ?><br>
+		<span class="small">
+			<?php echo plugin_lang_get( 'fields_description' ); ?>
+		</span>
 	</td>
 	<td class="center">
 		project_name, bug_id, summary, handler, priority, severity, reproducibility, status, resolution, projection, category, reason<br />
-		seperate the fields from the text by using pipe's
 	</td>
 </tr>
 

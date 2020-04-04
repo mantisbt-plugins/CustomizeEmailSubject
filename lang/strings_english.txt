@@ -1,5 +1,15 @@
 <?php
 
+$s_plugin_CustomizeEmailSubject_title = 'CustomizeEmailSubject';
+$s_plugin_CustomizeEmailSubject_description = 'Customize your emails subject. Supports many bug object properties.';
+
+# Config page
+$s_plugin_CustomizeEmailSubject_config = 'Configuration';
+$s_plugin_CustomizeEmailSubject_subject_template = 'Email Subject Template';
+$s_plugin_CustomizeEmailSubject_default_template = '[Project: |project_name|, Bug#: |bug_id|]: |summary|';
+$s_plugin_CustomizeEmailSubject_available_fields = 'Available Fields';
+$s_plugin_CustomizeEmailSubject_fields_description = 'Separate the fields from regular text by wrapping them with pipes "|"';
+
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_new = 'NEW';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_feedback = 'feedback neccessary';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_acknowledged = 'acknowledged';
@@ -29,6 +39,3 @@ $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relat
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_resolved = 'relationship child %1$s has been resolved';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_closed = 'relationship child %1$s has been closed';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_monitor = 'monitored by %2$s';
-$s_plugin_CustomizeEmailSubject_title = 'CustomizeEmailSubject';
-$s_plugin_CustomizeEmailSubject_config = 'Config';
-

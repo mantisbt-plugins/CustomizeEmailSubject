@@ -4,8 +4,8 @@ require_once( config_get( 'class_path' ) . 'MantisPlugin.class.php' );
 
 class CustomizeEmailSubjectPlugin extends MantisPlugin {
 	function register() {
-		$this->name        = 'Customize Email Subject';
-		$this->description = 'Customize your emails subject. Supports many bug object properties.';
+		$this->name        = plugin_lang_get( 'title' );
+		$this->description = plugin_lang_get( 'description' );
 		$this->page        = 'config';
 
 		$this->version     = '1.0.0-dev';
@@ -18,7 +18,7 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 
 	public function config() {
 		return array(
-			'email_subject_template' => '[Project: |project_name|, Bug#: |bug_id|]: |summary'
+			'email_subject_template' => plugin_lang_get( 'default_template' ),
 			);
 	}
 	
