@@ -1,7 +1,5 @@
 <?php
 
-require_once( config_get( 'class_path' ) . 'MantisPlugin.class.php' );
-
 class CustomizeEmailSubjectPlugin extends MantisPlugin {
 	function register() {
 		$this->name        = plugin_lang_get( 'title' );
