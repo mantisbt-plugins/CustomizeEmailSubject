@@ -7,6 +7,11 @@
  * @copyright Copyright (c) 2013 eCola GmbH, Heiko Schneider-Lange
  */
 
+$s_plugin_CustomizeEmailSubject_title = 'CustomizeEmailSubject';
+
+# Config page
+$s_plugin_CustomizeEmailSubject_config = 'Konfiguration';
+
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_new = 'NEU';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_feedback = 'Rückmeldung notwendig';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_acknowledged = 'anerkannt';
@@ -36,7 +41,3 @@ $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relat
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_resolved = 'Der VERWANDTE Eintrag %1$s wurde ERLEDIGT.';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_closed = 'Der VERWANDTE Eintrag %1$s wurde GESCHLOSSEN.';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_monitor = 'Neuer Beobachter %2$s';
-$s_plugin_CustomizeEmailSubject_title = 'CustomizeEmailSubject';
-$s_plugin_CustomizeEmailSubject_config = 'Konfiguration';
-
-
