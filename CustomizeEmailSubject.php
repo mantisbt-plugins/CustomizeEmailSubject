@@ -13,7 +13,7 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 		
 		$this->author      = 'eCola GmbH, Heiko Schneider-Lange';
 		$this->contact     = 'hsl@ecola.com';
-		$this->url         = 'http://www.lebensmittel.de';
+		$this->url         = 'https://github.com/mantisbt-plugins/CustomizeEmailSubject';
 	}
 
 	public function config() {
