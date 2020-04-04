@@ -5,18 +5,18 @@ require_once( config_get( 'class_path' ) . 'MantisPlugin.class.php' );
 class CustomizeEmailSubjectPlugin extends MantisPlugin {
 	function register() {
 		$this->name		= 'Customize Email Subject';
-		$this->description 	= 'Customize your emails subject. Supports many bug object properties.<br/>Needs some patches to work properly with MantisCore 1.2.14 : <br/>http://www.mantisbt.org/bugs/view.php?id=15647<br/>http://www.mantisbt.org/bugs/view.php?id=15648';
+		$this->description 	= 'Customize your emails subject. Supports many bug object properties.';
 		$this->page		= 'config';
 
 		$this->version		= '1.0.0-dev';
-		$this->requires		= array('MantisCore' => '1.2.14');
+		$this->requires		= array('MantisCore' => '2.0.0');
 		
 		$this->author		= 'eCola GmbH, Heiko Schneider-Lange';
 		$this->contact		= 'hsl@ecola.com';
 		$this->url		= 'http://www.lebensmittel.de';
 	}
 
-	function config() {
+	public function config() {
 		return array(
 			'email_subject_template' => '[Project: |project_name|, Bug#: |bug_id|]: |summary'
 			);

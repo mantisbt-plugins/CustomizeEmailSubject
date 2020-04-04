@@ -29,4 +29,6 @@ $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relat
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_resolved = 'relationship child %1$s has been resolved';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_closed = 'relationship child %1$s has been closed';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_monitor = 'monitored by %2$s';
+$s_plugin_CustomizeEmailSubject_title = 'CustomizeEmailSubject';
+$s_plugin_CustomizeEmailSubject_config = 'Config';
 

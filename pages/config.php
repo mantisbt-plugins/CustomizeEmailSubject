@@ -1,26 +1,35 @@
 <?php
+
 auth_reauthenticate( );
 access_ensure_global_level( config_get( 'manage_plugin_threshold' ) );
 
-html_page_top( 'Settings for Customized Email Subject' );
+layout_page_header( plugin_lang_get( 'title' ) );
 
-print_manage_menu( );
+layout_page_begin( 'manage_overview_page.php' );
+print_manage_menu( 'manage_plugin_page.php' );
 ?>
 
 <br/>
+<div class="col-md-12 col-xs-12">
+<div class="space-10"></div>
+<div class="form-container" >
+
 <form action="<?php echo plugin_page( 'config_edit' )?>" method="post">
 <?php echo form_security_field( 'plugin_customize_email_subject_config_edit' ) ?>
-<table align="center" class="width75" cellspacing="1">
+<div class="widget-box widget-color-blue2">
+<div class="widget-header widget-header-small">
+    <h4 class="widget-title lighter">
+        <i class="ace-icon fa fa-text-width"></i>
+        <?php echo plugin_lang_get( 'title' ) . ': ' . plugin_lang_get( 'config' )?>
+    </h4>
+</div>
+<div class="widget-body">
+<div class="widget-main no-padding">
+<div class="table-responsive">
+<!--table align="center" class="width75" cellspacing="1"-->
+<table class="table table-bordered table-condensed table-striped">
 
-<tr <?php echo helper_alternate_class( )?>>
-	<td class="form-title">
-		Settings for Customized Email Subject
-	</td>
-	<td class="center">&nbsp;</td>
-</tr>
-
-
-<tr <?php echo helper_alternate_class( )?>>
+<tr>
 	<td class="category">
 		Email Subject Template
 	</td>
@@ -29,7 +38,7 @@ print_manage_menu( );
 	</td>
 </tr>
 
-<tr <?php echo helper_alternate_class( )?>>
+<tr>
 	<td class="category">
 		available fields
 	</td>
@@ -39,14 +48,19 @@ print_manage_menu( );
 	</td>
 </tr>
 
-<tr>
-	<td class="center" colspan="3">
-		<input type="submit" class="button" value="<?php echo lang_get( 'change_configuration' )?>" />
-	</td>
-</tr>
-
 </table>
-<form>
+</div>
+</div>
+    <div class="widget-toolbox padding-8 clearfix">
+        <input type="submit" class="btn btn-primary btn-white btn-round" value="<?php echo lang_get( 'change_configuration' )?>" />
+    </div>
+</div>
+</div>
+</form>
+
+</div>
+</div>
+
 
 <?php
-html_page_bottom();
+layout_page_end();

@@ -29,5 +29,7 @@ $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_blocks_relat
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_resolved = 'Der VERWANDTE Eintrag %1$s wurde ERLEDIGT.';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_relationship_child_closed = 'Der VERWANDTE Eintrag %1$s wurde GESCHLOSSEN.';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_action_monitor = 'Neuer Beobachter %2$s';
+$s_plugin_CustomizeEmailSubject_title = 'CustomizeEmailSubject';
+$s_plugin_CustomizeEmailSubject_config = 'Konfiguration';
 
 
