@@ -22,9 +22,6 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 			);
 	}
 	
-	function init() {
-	}
-	
 	function hooks() {
 		return array(
 			'EVENT_DISPLAY_EMAIL_BUILD_SUBJECT' => 'subject'
