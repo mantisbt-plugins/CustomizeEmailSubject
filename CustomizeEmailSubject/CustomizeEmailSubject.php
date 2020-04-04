@@ -8,7 +8,7 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 		$this->description 	= 'Customize your emails subject. Supports many bug object properties.<br/>Needs some patches to work properly with MantisCore 1.2.14 : <br/>http://www.mantisbt.org/bugs/view.php?id=15647<br/>http://www.mantisbt.org/bugs/view.php?id=15648';
 		$this->page		= 'config';
 
-		$this->version		= '0.1.2';
+		$this->version		= '1.0.0-dev';
 		$this->requires		= array('MantisCore' => '1.2.14');
 		
 		$this->author		= 'eCola GmbH, Heiko Schneider-Lange';
