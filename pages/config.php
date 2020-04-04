@@ -33,7 +33,7 @@ print_manage_menu( 'manage_plugin_page.php' );
 	<th class="category">
 		<?php echo plugin_lang_get( 'subject_template' ); ?>
 	</th>
-	<td class="center">
+	<td>
 		<input type='text' name="email_subject_template" size="120" value="<?php echo plugin_config_get('email_subject_template', '') ?>" />
 	</td>
 </tr>
@@ -45,7 +45,7 @@ print_manage_menu( 'manage_plugin_page.php' );
 			<?php echo plugin_lang_get( 'fields_description' ); ?>
 		</span>
 	</th>
-	<td class="center">
+	<td>
 		project_name, bug_id, summary, handler, priority, severity, reproducibility, status, resolution, projection, category, reason<br />
 	</td>
 </tr>
