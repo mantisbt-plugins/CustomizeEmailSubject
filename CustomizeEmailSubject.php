@@ -4,16 +4,16 @@ require_once( config_get( 'class_path' ) . 'MantisPlugin.class.php' );
 
 class CustomizeEmailSubjectPlugin extends MantisPlugin {
 	function register() {
-		$this->name		= 'Customize Email Subject';
-		$this->description 	= 'Customize your emails subject. Supports many bug object properties.';
-		$this->page		= 'config';
+		$this->name        = 'Customize Email Subject';
+		$this->description = 'Customize your emails subject. Supports many bug object properties.';
+		$this->page        = 'config';
 
-		$this->version		= '1.0.0-dev';
-		$this->requires		= array('MantisCore' => '2.0.0');
+		$this->version     = '1.0.0-dev';
+		$this->requires    = array( 'MantisCore' => '2.0.0' );
 		
-		$this->author		= 'eCola GmbH, Heiko Schneider-Lange';
-		$this->contact		= 'hsl@ecola.com';
-		$this->url		= 'http://www.lebensmittel.de';
+		$this->author      = 'eCola GmbH, Heiko Schneider-Lange';
+		$this->contact     = 'hsl@ecola.com';
+		$this->url         = 'http://www.lebensmittel.de';
 	}
 
 	public function config() {
@@ -57,14 +57,14 @@ class CustomizeEmailSubjectPlugin extends MantisPlugin {
 			case 'handler':
 				$t_handler_id = $coo_bug_object->handler_id;
 				if($t_handler_id > 0) {
-            				if( user_exists( $t_handler_id ) ) {
+					if( user_exists( $t_handler_id ) ) {
 						$t_email_subject .= user_get_realname( $t_handler_id );
 					} else {
-                				$t_email_subject .= $t_handler_id;
-            				}
-        			} else {
-            				$t_email_subject .= '';
-        			}
+						$t_email_subject .= $t_handler_id;
+					}
+				} else {
+					$t_email_subject .= '';
+				}
 				//$t_email_subject .= user_get_realname($coo_bug_object->handler_id);
 				break;
 			case 'priority':
