@@ -9,6 +9,7 @@ $s_plugin_CustomizeEmailSubject_subject_template = 'Email Subject Template';
 $s_plugin_CustomizeEmailSubject_default_template = '[Project: |project_name|, Bug#: |bug_id|]: |summary|';
 $s_plugin_CustomizeEmailSubject_available_fields = 'Available Fields';
 $s_plugin_CustomizeEmailSubject_fields_description = 'Separate the fields from regular text by wrapping them with pipes "|"';
+$s_plugin_CustomizeEmailSubject_reset_template = 'Revert to Default Template';
 
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_new = 'NEW';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_feedback = 'feedback neccessary';

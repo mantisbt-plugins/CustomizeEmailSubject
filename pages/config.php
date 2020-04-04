@@ -56,6 +56,9 @@ print_manage_menu( 'manage_plugin_page.php' );
 		<button class="btn btn-primary btn-white btn-round">
 			<?php echo lang_get( 'change_configuration' ) ?>
 		</button>
+		<button name="reset" class="btn btn-primary btn-white btn-round" value="1">
+			<?php echo plugin_lang_get( 'reset_template' ) ?>
+		</button>
 	</div>
 </div>
 </div>
