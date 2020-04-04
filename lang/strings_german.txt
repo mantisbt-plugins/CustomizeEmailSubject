@@ -1,4 +1,11 @@
 <?php
+/**
+ * CustomizeEmailSubject Plugin for MantisBT
+ * @link https://github.com/mantisbt-plugins/CustomizeEmailSubject
+ *
+ * @author    Heiko Schneider-Lange <hsl@ecola.com>
+ * @copyright Copyright (c) 2013 eCola GmbH, Heiko Schneider-Lange
+ */
 
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_new = 'NEU';
 $s_plugin_CustomizeEmailSubject_email_notification_title_for_status_bug_feedback = 'Rückmeldung notwendig';

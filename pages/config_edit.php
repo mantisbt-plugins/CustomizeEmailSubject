@@ -1,4 +1,11 @@
 <?php
+/**
+ * CustomizeEmailSubject Plugin for MantisBT
+ * @link https://github.com/mantisbt-plugins/CustomizeEmailSubject
+ *
+ * @author    Heiko Schneider-Lange <hsl@ecola.com>
+ * @copyright Copyright (c) 2013 eCola GmbH, Heiko Schneider-Lange
+ */
 
 form_security_validate( 'plugin_customize_email_subject_config_edit' );
 
