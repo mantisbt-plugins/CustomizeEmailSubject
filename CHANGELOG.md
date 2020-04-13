@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/)
 specification.
 
 
-## [Unreleased]
+## [1.0.0] - 2020-04-13
 
 ### Added
 
@@ -48,8 +48,9 @@ specification.
 - Initial release
 
 
-[Unreleased]: https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare/v1.0.0...HEAD
 
+[1.0.0]: https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare/v0.1.2...v1.0.0
 [0.1.2]: https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare/b23a926c3e689c61e8dd357ffefe97f3fb8ac94c...v0.1.0
