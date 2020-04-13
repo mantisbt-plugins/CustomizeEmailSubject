@@ -1,21 +1,43 @@
-Customize Email Subject for MantisBT
-====================================
+# Customize Email Subject plugin for MantisBT
 
-Works with MantisBT 2.0.0
+Copyright (c) 2013 eCola GmbH, Heiko Schneider-Lange
 
-For my employer I developed this small plugin for Mantis bugtracker. We use it to add the status of a bug to each sent email.
+## Description
 
-In order to run this plugin, you have to patch the following files (no longer needed since MantisBT 1.2.16):
-- core/events_inc.php
-- core/email_api.php
+_CustomizeEmailSubject_ is a plugin for [MantisBT](http://mantisbt.org) that 
+allows the administrator to alter the subject of the notification emails.
 
-The patches are available on mantisbt.org bugtracker:
-- http://www.mantisbt.org/bugs/view.php?id=15647
-- http://www.mantisbt.org/bugs/view.php?id=15648
+See the [Change log](CHANGELOG.md).
 
 
-After you installed the patches and this plugin, you can edit the email subject on a config page.
-You can use these variables in the subject:
+## Installation
+
+### Requirements
+
+The plugin requires MantisBT version 2.0.0 or later.
+
+For legacy 1.2.x installations, please download
+[version 0.1.2](https://github.com/mantisbt-plugins/CustomizeEmailSubject/releases/tag/v0.1.2).
+MantisBT 1.3.x is not supported.
+
+### Setup Instructions
+
+1. Download or clone a copy of the 
+   [plugin's code](https://github.com/mantisbt-plugins/CustomizeEmailSubject).
+2. Copy the plugin (the `CustomizeEmailSubject/` directory) into your Mantis
+   installation's `plugins/` directory.
+3. While logged in as an administrator, go to *Manage → Manage Plugins*.
+4. In the *Available Plugins* list, you'll find the *CustomizeEmailSubject* plugin;
+   click the **Install** link.
+5. In the *Installed Plugins* list, click on the **CustomizeEmailSubject** plugin to configure it.
+
+## Configuration
+
+The email subject can be customized on the plugin's config page.
+
+The following **variables** can be used in combination with any other text,
+except the pipe symbol (`|`):
+
 - project_name
 - bug_id
 - summary
@@ -29,5 +51,20 @@ You can use these variables in the subject:
 - category
 - reason
 
-You can combine the variables with any other text except the pipe(|) symbol. 
-The pipe symbol is used to seperate the variables from the other text, e.g. "[|project_name| |bug_id| |status|]: |summary"
+The pipe symbol is used to wrap the variables, to separate them from regular 
+text, e.g. `[|project_name| |bug_id| |status|]: |summary|`.
+
+## Support
+
+If you wish to file a
+[bug report](https://github.com/mantisbt-plugins/CustomizeEmailSubject/issues/new),
+or have questions related to use and installation, please use the plugin's
+[issues tracker](http://github.com/mantisbt-plugins/CustomizeEmailSubject/issues)
+on GitHub.
+
+All code contributions (bug fixes, new features and enhancements, translations) 
+are welcome and highly encouraged, preferably as a
+[Pull Request](https://github.com/mantisbt-plugins/CustomizeEmailSubject/compare).
+
+The latest source code is available on
+[GitHub](https://github.com/mantisbt-plugins/CustomizeEmailSubject).
